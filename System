@@ -6,7 +6,7 @@
 using namespace std;
 
 void clearScreen() {
-    for (int i = 0; i < 25; ++i) {
+    for (int i = 0; i < 35; ++i) {
         cout << endl;
     }
 }
@@ -75,58 +75,58 @@ struct TeacherInfo {
 
 unordered_map<string, TeacherInfo> TeachersMap = {
     {"001", {"Benzur Otibruz", "Programming 1", "ICS", "ICS Building", 207, {
-        "Monday:    7am - 10am, 1A,  205, ICS Building",
-        "Monday:    1pm - 4pm,  1B,  205, ICS Building",
-        "Tuesday:   7am - 10am, 1A,  205, ICS Building",
-        "Tuesday:   3pm - 7pm,  1B,  205, ICS Building",
-        "Wednesday: 8am - 12nn, 1C,  205, ICS Building",
-        "Thursday:  7am - 10am, 1D,  205, ICS Building",
-        "Friday:    8am - 12nn, 1E,  205, ICS Building"
+        "Monday:    7am - 10am,    1A,    205,   ICS Building",
+        "Monday:    1pm - 4pm,     1B,    205,   ICS Building",
+        "Tuesday:   7am - 10am,    1A,    205,   ICS Building",
+        "Tuesday:   3pm - 7pm,     1B,    205,   ICS Building",
+        "Wednesday: 8am - 12nn,    1C,    205,   ICS Building",
+        "Thursday:  7am - 10am,    1D,    205,   ICS Building",
+        "Friday:    8am - 12nn,    1E,    205,   ICS Building"
     }}},
     {"112", {"Roovesvelt Luat", "Mathematics", "IOB",  "IOB Building", 200, {
-        "Monday:    7am - 10am, 1A,  201, IOB Building",
-        "Monday:    1pm - 4pm,  1B,  201, IOB Building",
-        "Tuesday:   7am - 10am, 1A,  201, IOB Building",
-        "Tuesday:   7am - 10am, 1B,  201, IOB Building",
-        "Wednesday: 8am - 12nn, 1C,  201, IOB Building",
-        "Thursday:  7am - 10am, 1D,  201, IOB Building",
-        "Friday:    8am - 12nn, 1E,  201, IOB Building"
+        "Monday:    7am - 10am,    1A,    201,   IOB Building",
+        "Monday:    1pm - 4pm,     1B,    201,   IOB Building",
+        "Tuesday:   7am - 10am,    1A,    201,   IOB Building",
+        "Tuesday:   7am - 10am,    1B,    201,   IOB Building",
+        "Wednesday: 8am - 12nn,    1C,    201,   IOB Building",
+        "Thursday:  7am - 10am,    1D,    201,   IOB Building",
+        "Friday:    8am - 12nn,    1E,    201,   IOB Building"
     }}},
     {"223",  {"Chrizel Abayon", "Understanding The Self", "ITE", "ITE Building", 300, {
-        "Monday:    7am - 10am, 1A,  301, ITE Building",
-        "Monday:    1pm - 4pm,  1B,  301, ITE Building",
-        "Tuesday:   7am - 10am, 1A,  301, ITE Building",
-        "Tuesday:   7am - 10am, 1B,  301, IOE Building",
-        "Wednesday: 8am - 12nn, 1C,  301, ITE Building",
-        "Thursday:  7am - 10am, 1D,  301, ITE Building",
-        "Friday:    8am - 12nn, 1E,  301, ITE Building"
+        "Monday:    7am - 10am,    1A,    301,   ITE Building",
+        "Monday:    1pm - 4pm,     1B,    301,   ITE Building",
+        "Tuesday:   7am - 10am,    1A,    301,   ITE Building",
+        "Tuesday:   7am - 10am,    1B,    301,   ITE Building",
+        "Wednesday: 8am - 12nn,    1C,    301,   ITE Building",
+        "Thursday:  7am - 10am,    1D,    301,   ITE Building",
+        "Friday:    8am - 12nn,    1E,    301,   ITE Building"
     }}},    
     {"334",  {"Medilyn Elena Almazan","Calculus", "IOB", "IOB Building", 104, {
-        "Monday:    7am - 10am, 1A,  101, IOB Building",
-        "Monday:    1pm - 4pm,  1B,  101, IOB Building",
-        "Tuesday:   7am - 10am, 1A,  101, IOB Building",
-        "Tuesday:   7am - 10am, 1B,  101, IOB Building",
-        "Wednesday: 8am - 12nn, 1C,  101, IOB Building",
-        "Thursday:  7am - 10am, 1D,  101, IOB Building",
-        "Friday:    8am - 12nn, 1E,  101, IOB Building"    
+        "Monday:    7am - 10am,    1A,    101,   IOB Building",
+        "Monday:    1pm - 4pm,     1B,    101,   IOB Building",
+        "Tuesday:   7am - 10am,    1A,    101,   IOB Building",
+        "Tuesday:   7am - 10am,    1B,    101,   IOB Building",
+        "Wednesday: 8am - 12nn,    1C,    101,   IOB Building",
+        "Thursday:  7am - 10am,    1D,    101,   IOB Building",
+        "Friday:    8am - 12nn,    1E,    101,   IOB Building"    
     }}},
-    {"445",  {"Ivy Almazan","Science", "ITE", "ITE Building", 206, {
-        "Monday:    7am - 10am, 1A,  201, ITE Building",
-        "Monday:    1pm - 4pm,  1B,  201, ITE Building",
-        "Tuesday:   7am - 10am, 1A,  201, ITE Building",
-        "Tuesday:   7am - 10am, 1B,  201, ITE Building",
-        "Wednesday: 8am - 12nn, 1C,  201, ITE Building",
-        "Thursday:  7am - 10am, 1D,  201, ITE Building",
-        "Friday:    8am - 12nn, 1E,  201, ITE Building"    
+    {"445",  {"Ivy Almazan","Science", "ITE", "  ITE Building", 206, {
+        "Monday:    7am - 10am,    1A,    201,   ITE Building",
+        "Monday:    1pm - 4pm,     1B,    201,   ITE Building",
+        "Tuesday:   7am - 10am,    1A,    201,   ITE Building",
+        "Tuesday:   7am - 10am,    1B,    201,   ITE Building",
+        "Wednesday: 8am - 12nn,    1C,    201,   ITE Building",
+        "Thursday:  7am - 10am,    1D,    201,   ITE Building",
+        "Friday:    8am - 12nn,    1E,    201,   ITE Building"    
     }}},
     {"556", {"John Benzur Cagalitan", "Physics", "ICS", "ICS Building", 207, {
-        "Monday:    7am - 10am, 1A,  205, ICS Building",
-        "Monday:    1pm - 4pm,  1B,  205, ICS Building",
-        "Tuesday:   7am - 10am, 1A,  205, ICS Building",
-        "Tuesday:   3pm - 7pm,  1B,  205, ICS Building",
-        "Wednesday: 8am - 12nn, 1C,  205, ICS Building",
-        "Thursday:  7am - 10am, 1D,  205, ICS Building",
-        "Friday:    8am - 12nn, 1E,  205, ICS Building"
+        "Monday:    7am - 10am,    1A,    205,   ICS Building",
+        "Monday:    1pm - 4pm,     1B,    205,   ICS Building",
+        "Tuesday:   7am - 10am,    1A,    205,   ICS Building",
+        "Tuesday:   3pm - 7pm,     1B,    205,   ICS Building",
+        "Wednesday: 8am - 12nn,    1C,    205,   ICS Building",
+        "Thursday:  7am - 10am,    1D,    205,   ICS Building",
+        "Friday:    8am - 12nn,    1E,    205,   ICS Building"
     }}},
 };
 
@@ -162,13 +162,13 @@ void get_Teacher_info() {
             cout << "  Faculty:   " << Teacher_info.Faculty << "         " << endl;
             cout << "  Room No:   " << Teacher_info.RoomNo << "                  " << endl;
             cout << "  Schedule for the week:               " << endl;
-            cout << "+----------------------------------------+" << endl;
-            cout << "|  Day  | Section |  Room  |  Building | " << endl;
-            cout << "+----------------------------------------+" << endl;
+            cout << "+------------------------------------------------------------+" << endl;
+            cout << "|   Day   |    Time     |     Section    | Room  |  Building | " << endl;
+            cout << "+------------------------------------------------------------+" << endl;
             for (const string& day : Teacher_info.Schedule) {
                 cout << "| " << day << " |" << endl;
             }
-            cout << "+----------------------------------------+" << endl;
+            cout << "+------------------------------------------------------------+" << endl;
         } else {
             cout << "Invalid teacher." << endl;
             get_Teacher_info();
@@ -180,8 +180,11 @@ void get_Teacher_info() {
         }
         int choice;
         cout << "Enter Choice: ";
-        cin >> choice;
-        if (choice > 0 && choice <= count) {
+        while (!(cin >> choice) || choice <= 0 || choice > count) {
+            cout << "Invalid choice. Enter a number between 1 and " << count << ": ";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
             auto it = TeachersMap.find(matchingTeachers[choice - 1]);
             if (it != TeachersMap.end()) {
                 TeacherInfo Teacher_info = it->second;
@@ -192,36 +195,20 @@ void get_Teacher_info() {
                 cout << "  Faculty:   " << Teacher_info.Faculty << "         " << endl;
                 cout << "  Room No:   " << Teacher_info.RoomNo << "                  " << endl;
                 cout << "  Schedule for the week:               " << endl;
-                cout << "+----------------------------------------+" << endl;
-                cout << "|  Day  | Section |  Room  |  Building | " << endl;
-                cout << "+----------------------------------------+" << endl;
+                cout << "+------------------------------------------------------------+" << endl;
+                cout << "|   Day  |   Time  | Section  | Room  |  Building | " << endl;
+                cout << "+------------------------------------------------------------+" << endl;
                 for (const string& day : Teacher_info.Schedule) {
                     cout << "| " << day << " |" << endl;
                 }
-                cout << "+----------------------------------------+" << endl;
+                cout << "+------------------------------------------------------------+" << endl;
             } else {
                 cout << "Invalid choice." << endl;
                 get_Teacher_info();
             }
-        } else {
-            cout << "Invalid choice." << endl;
-            get_Teacher_info();
         }
     }
-}
 
-
-class Registrar {
-public:
-    Registrar() : clientNumber(1) {}
-
-    int generateClientNumber() {
-        return clientNumber++;
-    }
-
-private:
-    int clientNumber;
-};
 
 struct Office {
     string building;
@@ -234,29 +221,47 @@ unordered_map<string, Office> offices = {
     {"2", {"IOB Building", "210", "1st"}},
 };
 
+class Registrar {
+public:
+    Registrar() {}
+
+    int generateClientNumber(string officeId) {
+        if (clientNumbers.find(officeId) == clientNumbers.end()) {
+            clientNumbers[officeId] = 1;
+        }
+        return clientNumbers[officeId]++;
+    }
+
+private:
+    unordered_map<string, int> clientNumbers;
+};
+
 void get_office_info(Registrar& registrar) {
-    string office;
-    cout << "\nOffices:" << endl;
-    cout << "[1]. Registrar"<<endl;
-    cout << "[2]. Accounting"<<endl;
-    cout << "Enter office: ";
-    cin >> office;
-    auto it = offices.find(office);
-    if (it != offices.end()) {
-  Office office_info = it->second;
-  int clientNumber = registrar.generateClientNumber();
-    cout << "+-----------------------------------+" << endl;
-    cout << "|         Office Information        |" << endl;
-    cout << "+-----------------------------------+" << endl;
-    cout << "| Building:      "<< office_info.building<< endl;
-    cout << "| Room Number:   "<< office_info.room_number<< endl;
-    cout << "| Floor Number:  "<< office_info.Floor<< endl;
-    cout << "| Client Number: "<< clientNumber<< endl;
-    cout << "+-----------------------------------+" << endl;
-    cout << "\n" << endl;
-    } else {
-        cout << "\nInvalid office!!." <<endl;
-        get_office_info(registrar);
+    bool validOffice = false;
+    while (!validOffice) {
+        string office;
+        cout << "\nOffices:" << endl;
+        cout << "[1]. Registrar" << endl;
+        cout << "[2]. Accounting" << endl;
+        cout << "Enter office: ";
+        cin >> office;
+        auto it = offices.find(office);
+        if (it != offices.end()) {
+            validOffice = true;
+            Office office_info = it->second;
+            int clientNumber = registrar.generateClientNumber(office);
+            cout << "+-----------------------------------+" << endl;
+            cout << "|         Office Information        |" << endl;
+            cout << "+-----------------------------------+" << endl;
+            cout << "| Building:      " << office_info.building << endl;
+            cout << "| Room Number:   " << office_info.room_number << endl;
+            cout << "| Floor Number:  " << office_info.Floor << endl;
+            cout << "| Client Number: " << clientNumber << endl;
+            cout << "+-----------------------------------+" << endl;
+            cout << "\n" << endl;
+        } else {
+            cout << "\nInvalid office!!" << endl;
+        }
     }
 }
 
@@ -307,16 +312,16 @@ void Options(){
         cout << "[1]. Get Student Information "<< endl;
         cout << "[2]. Get Office Information  "<< endl;
         cout << "[3]. Get Teacher Information "<< endl;
-        cout << "[4]. Get Rooms Informarion   "<< endl;
+        cout << "[4]. Get Rooms Information   "<< endl;
         cout << "[5]. Courses                 "<< endl;
         cout << "[6]. Quit                    "<< endl;
 }
 int main() {
     string choice;
     Registrar registrar;
-        cout <<"**********************************************************************" << endl;
-        cout << "\t\tWELCOME TO OUR INFORMATION SYSTEM"<<endl;
-        cout <<"**********************************************************************" << endl;
+        cout <<"********************************************************************" << endl;
+        cout << "                WELCOME TO OUR INFORMATION SYSTEM                     "<<endl;
+        cout <<"********************************************************************" << endl;
     while (true) {
         Options();
         
@@ -369,20 +374,24 @@ int main() {
             case 4:
             clearScreen();
                 do {
-                    cout << "[1]. Computer Laboratory" << endl;
-                    cout << "[2]. Science Laboratory" << endl;
-                    cout << "[3]. Guidance Office" << endl;
-                    cout << "[4]. Clinic" << endl;
-                    cout << "Enter Room Number (1-4): ";
-        
+                  cout<<" Rooms: "<<endl;
+                    cout << "  [1]. Computer Laboratory" << endl;
+                    cout << "  [2]. Science Laboratory" << endl;
+                    cout << "  [3]. Guidance Office" << endl;
+                    cout << "  [4]. Clinic" << endl;
+                    cout << "  [5]. Library"<< endl;
+                    cout << "  [6]. ICS Office"<<endl;
+                    cout << "  [7]. ITE Office"<<endl;
+                    cout << "  [8]. IOB Office"<<endl;
+                    cout << "Enter Room Number: ";
+                    int roomCount = 8;
                     int inputRoomNumber;
-                    cin >> inputRoomNumber;
-
-                if (inputRoomNumber < 1 || inputRoomNumber > 4) {
-                    cout << "Invalid room number. Please enter a number between 1 and 4." << endl;
-                    continue;
+        
+                while (!(cin >> inputRoomNumber) || inputRoomNumber <= 0 || inputRoomNumber > roomCount) {
+                    cout << "Invalid choice. Enter a number between 1 and " << roomCount << ": ";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }
-    
                 printRoomInfo(inputRoomNumber);
 
                 cout << "Do you want to search for another room? (yes/no): ";
